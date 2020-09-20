@@ -22,6 +22,7 @@ if (isset($_POST['save-edit-comment'])){
 
 }
 
+
 if (isset($_POST['delete-edit-comment'])){
     $iddel = $_POST['id-each-user'];
     $delsystem = "DELETE FROM `comments` WHERE `id` = '$iddel' ";
