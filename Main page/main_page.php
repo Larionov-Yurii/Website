@@ -1,6 +1,7 @@
 <?php
         session_start();
 
+
      include_once "./check info/sessionid.php";
 
      include_once "./check info/allmaincomments.php";
