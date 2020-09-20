@@ -5,4 +5,3 @@ if (isset($_SESSION['all-good'])){
     $findid = $Gcom->query("SELECT `id` FROM `new users` WHERE `login` = '".$_SESSION['all-good']['login']."' ");
     $findid = $findid->fetch();
 }
-
